@@ -6,7 +6,7 @@ function App() {
   useEffect(()=>{
     new Promise((todoBien,todoMal)=>{
       setTimeout(()=>{
-        todoBien(["Pera", "Manzanas", "Uvas"])
+        todoBien(['id:1', 'title:Marca Mercedes', 'description:La mejor gama', 'price:40000', 'pictureUrl:img'])
       },2000)
      
     }).then((resultado)=> setItems(resultado))
